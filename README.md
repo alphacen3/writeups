@@ -1,9 +1,3 @@
-
-
-
-
-
-
 1. Change the current directory to hugo's directory.
 2. Create or install a theme:
    - Create a new theme with the command "hugo new theme <THEMENAME>"
