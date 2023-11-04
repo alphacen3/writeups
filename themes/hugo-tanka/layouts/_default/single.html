@@ -1,0 +1,19 @@
+{{ define "main" }}
+    {{ partial "header" . }}
+
+    <div class="content">
+        <div class="container">
+            <div class="row justify-content-center front-list-space">
+                <div class="col-sm-12 col-lg-11">
+                    <h6 class="mx-0 mx-md-0">{{ .Title }}</h6>
+                    <div class="markdown">
+                        {{ partial "content" . }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- {{ partial "utterances.html" .}} -->
+    {{ partial "footer" . }}
+{{ end }}
