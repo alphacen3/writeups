@@ -24,6 +24,15 @@ body {
     box-sizing: border-box; /* Include padding and border in the box's dimensions */
 }
 
+.footnote {
+    font-size: 0.9rem;
+    color: #f0f0f4;
+    margin-top: 10px;
+}
+
+/* .footnote p {
+    width: 100%;
+} */
 
 /* Fix jumping scrollbar when switching to long pages */
 
@@ -154,7 +163,7 @@ hr {
 /* blog post typography */
 
 .content .blog-post-title {
-    font-size: 1.1rem;
+    font-size: 1rem;
     /*font-size: 2rem;*/
     line-height: 2.625rem;
 }
@@ -240,7 +249,7 @@ hr {
 }
 
 .content .meta-title {
-    font-size: 1.1rem;
+    font-size: 1rem;
     /* font-size: 1.5625rem; */
     margin-bottom: 0.5rem;
 }
@@ -249,7 +258,7 @@ hr {
 .content .meta-title {
     /* font-size: 1.0025rem; */
     /* font-size: 1.5625rem; */
-    font-weight: 600;
+    font-weight: 100;
 }
 
 .content .meta-title a {
@@ -264,6 +273,7 @@ hr {
     font-size: 1rem;
     color: #738491;
     margin-bottom: .5rem;
+    padding-bottom: .05rem;
 }
 
 .content .navigation .icon {

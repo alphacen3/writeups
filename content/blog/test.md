@@ -1,9 +1,9 @@
 ---
-title: "测试"
+title: "要做一些事"
 author: "N/A"
 date: "2023-11-03T09:00:00"
-tags: ["testpost"]
-categories: ["machine learning"]
+tags: ["random-thoughts"]
+categories: ["test"]
 ---
 
-测试页面
+如题。
